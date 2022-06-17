@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <style>
+
+        #main{
+            display: flex;
+            justify-content: space-around;
+            width: 180%;
+            margin-left: -100px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            
+        }
+        #desc{
+            
+            margin-top: 80px;
+        }
+        #add_to_basket{
+                 background-color: green;
+                 margin: 40px;
+                 margin-left: 50px;
+                 display: block;
+                 padding: 15px 15px 15px 15px;
+                 border-radius: 12px;
+                 border: none;
+                 cursor: pointer;
+
+
+        }
+        button:hover{
+                 background-color: yellowgreen;
+                 margin: 40px;
+                 margin-left: 50px;
+                 display: block;
+                 padding: 15px 15px 15px 15px;
+                 border-radius: 12px;
+                 border: none;
+                 cursor: pointer; 
+                 color: white;         
+ }
+
+        img{
+            height: 400px;
+            width: 600%;
+
+        }
+        
+ h3{
+    font-size: 65px;
+}
+
+  #main_container{
+    width: 92%;
+    gap: 20px;
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 30px auto 0;
+    line-height: none;
+}
+#beauty_category_container{
+    width: 30%;
+    font-family: 'Mulish', sans-serif;
+    margin-bottom: 20px;
+}
+.beauty_category_heading{
+    font-size: .8rem;
+}
+#beauty_category{
+    margin: 20px 0 60px;
+}
+
+#beauty_category>div:nth-child(1)>a{
+    color: #167A92;
+    font-size: .8rem;
+}
+#beauty_category>div{
+    margin: -10px 10px 10px 10px;
+}
+.beauty_category_name>a{
+    font-size: .8rem;
+    font-family: 'Mulish', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+.beauty_category_name>a:hover{
+    text-decoration:underline;
+}
+.beauty_category_name{
+    margin: 20px 0;
+}
+#beauty_category>div:first-child{
+    margin-bottom: 40px;
+}
+
+
+.filter_type{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(222, 222, 222);
+}
+.filter_type>a{
+    color: black;
+    text-decoration: none;
+}
+.filter_type>a:hover, .add_btn:hover{
+    color: #167A92;
+    text-decoration: none;
+}
+#filter_container>p{
+    color: rgb(218, 218, 218);
+}
+#brand{
+    
+    width: 100px;
+    margin-bottom: 28px;
+    
+   
+}
+#brand>h2{
+    
+    margin: 1px 0px 20px 10px;    
+   
+}
+#seasonal{
+    width: 100px;
+    margin-bottom: 28px;
+   
+}
+#seasonal>div{
+    margin: -10px 10px 10px 10px;
+}
+#brand>div{
+    margin: -10px 10px 10px 10px;
+}
+#country>div{
+    margin: -10px 10px 10px 10px;
+}
+#country{
+    width: 100px;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div id="main_container">
+        <div id="beauty_category_container">
+            <h2 class="beauty_category_heading">Category</h2>
+            <div id="beauty_category">
+                <div><a href="#">Fruits & Vegetables</a></div>
+                <div class="beauty_category_name"><a href="#">Cuts & Sprouts</a></div>
+                <div class="beauty_category_name"><a href="#">Cut & Peeled Veggies</a></div>
+                <div class="beauty_category_name"><a href="#">Fresh Salads & Sprouts</a></div>
+                <div class="beauty_category_name"><a href="#">fresh fruits</a></div>
+                <div class="beauty_category_name"><a href="#">fresh Vegetables</a></div>
+               
+            </div>
+            <div id="brand"><h2  class="beauty_category_heading">Brand</h2>
+                <div class="beauty_category_name"><a href="#">bb combo</a></div>
+                <div class="beauty_category_name"><a href="#">brotos</a></div>
+                <div class="beauty_category_name"><a href="#">freshco</a></div>
+                <div class="beauty_category_name"><a href="#">fresho</a></div>
+                <div class="beauty_category_name"><a href="#">gopalan organic</a></div>
+            </div>
+            <div id="seasonal"><h2  class="beauty_category_heading">Seosonal</h2>
+                <div class="beauty_category_name"><a href="#">pooja items</a></div>
+                <div class="beauty_category_name"><a href="#">summer fruits</a></div>
+                <div class="beauty_category_name"><a href="#">summer Veggies</a></div>
+                <div class="beauty_category_name"><a href="#">winter fruits</a></div>
+                <div class="beauty_category_name"><a href="#">winter Veggies</a></div>
+            </div>
+            <div id="country"><h2  class="beauty_category_heading">Country of Origin</h2>
+                <div class="beauty_category_name"><a href="#">Australia</a></div>
+                <div class="beauty_category_name"><a href="#">greece</a></div>
+                <div class="beauty_category_name"><a href="#">India</a></div>
+                <div class="beauty_category_name"><a href="#">spain</a></div>
+                <div class="beauty_category_name"><a href="#">USA</a></div>
+            </div>
+    
+        </div>
+          
+        <div>    
+    
+    <div id="main">
+        <div id="individual">
+
+        </div>
+        <div id="desc"></div>
+    </div>
+   
+          
+</body>
+</html>
+<script src="zoom.js"></script>
