@@ -1,0 +1,160 @@
+
+body{
+  height: 4000px;
+  
+}
+#container{
+    width: 85%;
+    margin-left: 80px;
+    height: 134px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    padding-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 15px;
+    /* position: fixed; */
+  
+}
+#add{
+ width: 100%;
+  height: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: end;
+   align-items: center;
+   gap: 10px; 
+}
+#add  img{
+    height: 18px;
+    width: 20px;
+    margin-right: 2px;
+}
+#searchar{
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box; 
+}
+#basketlogo{
+    height: 100%;
+}
+#basketlogo > img{
+    width: 185px;
+  height: 70px;
+  margin-top: -8%;
+  box-sizing: border-box;
+
+}
+
+form.example{
+    display: flex;
+    width: 400px;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 120%;
+   
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+   
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  #hout{
+   
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+
+#ket{
+    height: 100%;
+    gap: 10px;
+    color: green;
+    font-weight: bold;
+    width: 150px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+}
+#ket>img{
+    height: 40px;
+}
+#categories{
+    margin-top: 20px;
+    height: 30px;
+    border: 2px solid midnightblue;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  position: sticky;
+}
+
+#dill{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  cursor: pointer;
+  background-color: #84c225;
+  color: white;
+
+}
+#dill>img{
+  height: 20px;
+}
+
+#down{
+  width: 18%;
+  border: 0px solid black;
+  display: flex;
+  flex-direction: column;
+  margin-top: -10px;
+  display: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+#down a{
+  border: 1px solid;
+  text-decoration: none;
+  color: grey; 
+  height: 30px;
+}
+#down a:hover{
+  background-color: lightgoldenrodyellow;
+}
+#add a{
+  text-decoration: none;
+  color: black;
+}
+#add a:hover{
+  font-weight: bold;
+}
+
+
+
+
+
+
