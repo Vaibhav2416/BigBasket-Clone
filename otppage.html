@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="otp">
+
+        <h2>Payment Verification Code</h2>
+
+        <p>6 digit otp sent on your mail please enter to continue your Payment</p>
+        <h3>Enter Otp </h3>
+        <div id="otppage">
+            <input type="number" name="" id="otppay" size="40"><br>
+            <button type="submit" class="btn1" id="submit" onclick="otppayment()">Submit</button>
+            <input type="submit" class="btn1" onclick="resend()" value=" Resend Otp">
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>
+<script>
+
+
+    let z = JSON.parse(localStorage.getItem("otp"));
+    function otppayment() {
+
+
+        let pay = document.getElementById("otppay").value;
+        if (z == pay) {
+            alert("Payment Sucessfull")
+            window.location.href = "index.html"
+        }
+        else {
+            alert("Wrong Otp")
+        }
+
+    }
+    function resend() {
+        alert("Otp Resend")
+    }
+
+
+</script>

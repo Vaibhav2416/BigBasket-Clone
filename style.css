@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+#main {
+  border: 2px solid #84c225;
+  width: 700px;
+  background-color: #f5f5f5;
+}
+.gap {
+  margin-right: 30px;
+}
+.add {
+  margin-bottom: 30px;
+}
+.address {
+  margin-bottom: 10px;
+}
+/* input {
+  margin-top: 20 px;
+} */
+button {
+  margin-right: 10px;
+}
+.nick {
+  margin-bottom: 30px;
+}
+.card {
+  /* border: 1px solid green; */
+  width: 250px;
+  height: 250px;
+}
+.sidebar {
+  border: 1px solid #84c225;
+  margin-left: 50px;
+}
+/* .gift {
+  border: 1px solid blue;
+  width: 420px;
+  justify-content: center;
+} */
+.h {
+  margin-left: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.navlogo {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+carddata {
+  border: 1px solid #84c225;
+  width: 300px;
+  height: 250px;
+  justify-content: center;
+  /* margin-left: 385px; */
+  margin-top: 30px;
+  margin-left: 20px;
+  padding: 30px;
+  background-color: #f5f5f5;
+}
+#details {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+button,
+#save {
+  background-color: #84c225;
+  color: white;
+}
+carddata h1 {
+  color: #84c225;
+}
+.bot {
+  /* border: 2px solid green; */
+  width: 700px;
+  box-sizing: border-box;
+  margin-left: 298px;
+}
+.paymentpage {
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  width: 20%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 37px 119px 5px 56px;
+
+  /* display: none; */
+}
+.btn {
+  background-color: #84c225;
+  color: white;
+  padding: 12px;
+  border-radius: 7px;
+  border-style: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+} */
+
+#cardno {
+  width: 350px;
+  margin: 20px 6px 20px 1px;
+}
+
+#otp {
+  border: 1px solid forestgreen;
+  width: 300px;
+  height: 300px;
+  padding: 90px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  margin: 0 auto;
+}
+.upi {
+  display: none;
+}
+#otp > h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: xx-large;
+  font-weight: 800;
+  color: #84c225;
+}
+#otp > p {
+  margin: 20px 0 20px 0;
+}
+
+.opt {
+  display: flex;
+}
+.opt > button {
+  width: 210px;
+  justify-content: space-around;
+  margin-left: 240px;
+  margin-top: 50px;
+}
+.form {
+  display: none;
+}
+.page {
+  text-align: center;
+  margin: 30px 40px 40px 40px;
+  color: #84c225;
+}
+.form > h3 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.upi > div > h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+#save {
+  width: 170px;
+  height: 40px;
+}
+carddata > p {
+  color: black;
+  margin-top: 20px;
+}
+carddata > button {
+  margin-top: 30px;
+}
+.btn1 {
+  background-color: #84c225;
+  color: white;
+  padding: 12px;
+  border-radius: 7px;
+  border-style: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 30px;
+}
+.month input {
+  margin: 20px 0px 20px 0px;
+}
+#u {
+  margin: 20px 0px 20px 0px;
+}
+#otppay {
+  margin-top: 20px;
+}
+#code {
+  margin: 20px 0px 20px 0px;
+}
+.sidebar h3 {
+  margin: 10px 0px 10px 0px;
+}
+.amount {
+  margin-top: 13px;
+  margin-left: 77px;
+  font-size: large;
+  font-weight: bolder;
+}
+.pp {
+  justify-content: space-between;
+  /* gap: 80px; */
+}
+cardddo p {
+  margin-left: 115px;
+  margin-top: 10px;
+  font: 18px;
+  font-weight: bolder;
+}
+carddddo p {
+  margin-left: 138px;
+  margin-top: 15px;
+  font: 18px;
+  font-weight: bolder;
+}
+carddd > h4 {
+  margin-left: 100px;
+  margin-top: 10px;
+  font: 18px;
+  font-weight: bolder;
+}
+/* .ppp {
+  margin-left: -30px;
+} */
+.final {
+  justify-content: space-between;
+}
