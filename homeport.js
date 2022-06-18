@@ -4,7 +4,7 @@ function home(){
     <img src="https://cdn-icons-png.flaticon.com/512/126/126509.png" alt="">
     <p>1860 123 1000</p>
     
-    <img src="https://cdn-icons.flaticon.com/png/512/819/premium/819814.png?token=exp=1655352798~hmac=2662a228b93996269753fed4f33e6463" alt="">
+    <img src="https://cdn-icons.flaticon.com/png/128/2838/premium/2838912.png?token=exp=1655566860~hmac=ddb55e3802a5df0d1fd2b79859f9126e" alt="">
     <select name="" id="">
         <option value="">Select Location</option>
         <option value="">Mumbai</option>
@@ -20,7 +20,7 @@ function home(){
     </select>
    
 
-    <img src="https://cdn-icons-png.flaticon.com/512/747/747545.png" alt=""> <p id="update"><div id="upper"></div></p>
+    <img src="https://cdn-icons.flaticon.com/png/128/3293/premium/3293334.png?token=exp=1655566706~hmac=63a2152f6eea4a827bdcc756bd1934f0" alt=""> <p id="update"><div id="upper"></div></p>
   
     
 
