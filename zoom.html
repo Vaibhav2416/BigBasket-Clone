@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Product</title>
     <style>
 
         #main{
             display: flex;
             justify-content: space-around;
-            width: 180%;
+            width: 130%;
             margin-left: -100px;
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-            
+            box-sizing: border-box;
         }
         #desc{
             
@@ -43,15 +45,15 @@
                  color: white;         
  }
 
-        img{
+        .picc{
             height: 400px;
             width: 600%;
 
         }
         
- h3{
+ /* h3{
     font-size: 65px;
-}
+} */
 
   #main_container{
     width: 92%;
@@ -145,10 +147,13 @@
 }
 
 
-
     </style>
 </head>
 <body>
+
+    <div class = "nav"></div>
+
+
     <div id="main_container">
         <div id="beauty_category_container">
             <h2 class="beauty_category_heading">Category</h2>
@@ -197,4 +202,4 @@
           
 </body>
 </html>
-<script src="./zoom.js"></script>
+<script src="./zoom.js"  type = "module"></script>
