@@ -1,6 +1,8 @@
-import {sidebar} from "/import.js"
+import {sidebar} from "./import.js"
+document.querySelector("#adi").innerHTML= sidebar();
 
-document.querySelector("body").innerHTML=sidebar()
+import {footer} from "./footer.js"
+document.querySelector("#footer").innerHTML= footer();
 
 import {Display,handle_sort} from "./append.js";
 

@@ -1,3 +1,5 @@
+import {footer} from "./footer.js"
+document.querySelector("#footer").innerHTML= footer();
 let basketLSData  =JSON.parse(localStorage.getItem("basket")) || [];
 
 console.log(basketLSData)

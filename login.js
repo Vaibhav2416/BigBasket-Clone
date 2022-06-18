@@ -15,7 +15,7 @@ console.log(consume)
       if(consume.otp==pass)
       {
         alert("Congratulations! Sign In Successfuly") 
-       return location.replace("home.html");
+       return location.replace("indexx.html");
       }
       
 } 
