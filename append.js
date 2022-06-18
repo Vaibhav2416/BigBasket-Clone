@@ -103,7 +103,7 @@ bdiv.append(div)
  let playvideo = (add) => {
    console.log(add);
       localStorage.setItem("individual",JSON.stringify(add));
-      window.location.href="zoom.html";
+      window.location.href="./zoom.html";
  };
 
  export{Display,handle_sort}

@@ -54,10 +54,10 @@ function home(){
 </div>
 
 <div id="down">
-<a href="#">Fruits & Vegetables</a>
-<a href="#">Foodgrains,Oil & Masala</a>
-<a href="#">Bakery,Cakes & Dairy</a>
-<a href="#">Beverages</a>
+<a href="fruit.html">Fruits & Vegetables</a>
+<a href="foodgrains.html">Foodgrains,Oil & Masala</a>
+<a href="Bakery.html">Bakery,Cakes & Dairy</a>
+<a href="Beverages.html">Beverages</a>
 <a href="#">Snacks & Nranded Foods</a>
 <a href="#">Beauty and Hygine</a>
 </div>

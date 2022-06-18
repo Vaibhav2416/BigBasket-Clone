@@ -1,0 +1,157 @@
+.footer
+{
+    width : 90%;
+    height : 820px;
+    margin: auto;
+}
+.footera
+{
+    height : 400px;
+    display : grid;
+    grid-template-columns: repeat(4,1fr);
+    gap : 30px;
+    justify-content: space-evenly;
+    padding: 5px 5px 5px 5px;
+}
+.footera>.f1r1>h4
+{
+  color :#6CD138;
+}
+.footera>.f1r1>ul
+{
+   list-style: none;
+   padding : 0px;
+   line-height: 28px;
+   color:rgb(94, 92, 92);
+}
+.footera>.f1r2>h4
+{
+  color :#6CD138;
+}
+
+.footera>.f1r2>ul
+{
+   list-style: none;
+   padding : 0px;
+   line-height: 28px;
+   color:rgb(94, 92, 92);
+}
+.footera>.f1r3>h4
+{
+  color :#6CD138;
+}
+.footera>.f1r3>div>a>img
+{
+    width : 180px;
+}
+.footera>.f1r4>h4
+{
+  color :#6CD138;
+}
+.footera>.f1r4>div
+{
+    display : grid;
+    grid-template-columns: repeat(4,1fr);
+    gap : 3px;
+    justify-content: space-evenly;
+    height : 14%;
+    
+}
+.footera>.f1r4>div>a>img
+{
+    width : 54px;
+}
+
+.footerb
+{
+    height : 410px;
+    display : grid;
+    grid-template-columns: repeat(1,auto);
+    justify-content: space-evenly;
+}
+.footerb>.f2r1
+{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}
+.footerb>.f2r1>.a
+{
+   width : 210px;
+}
+.footerb>.f2r1>div>p
+{
+   line-height: 23px;
+   color:rgb(94, 92, 92);
+}
+.footerb>.f2r1>.a>h4
+{
+  color :#6CD138;
+}
+.footerb>.f2r2
+{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}
+.footerb>.f2r2>.a
+{
+    width : 210px;
+}
+.footerb>.f2r2>div>p
+{
+   line-height: 23px;
+   color:rgb(94, 92, 92);
+}
+.footerb>.f2r2>.a>h4
+{
+  color :#6CD138;
+}
+.footerb>.f2r3
+{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}
+.footerb>.f2r3>.a
+{
+    width : 210px;
+}
+.footerb>.f2r3>div>p
+{
+   line-height: 23px;
+   color:rgb(94, 92, 92);
+}
+.footerb>.f2r3>.a>h4
+{
+  color :#6CD138;
+}
+.footerb>.f2r4
+{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}
+.footerb>.f2r4>.a
+{
+    width : 210px;
+}
+.footerb>.f2r4>.b
+{
+   display : flex;
+   height : 100%;
+   width : 910px;
+}
+.footerb>.f2r4>.b>img
+{
+    width : 50px;
+    height: 50px;
+    margin : 0px 10px 0px 10px;
+}
+.footerb>.f2r4>.a>h4
+{
+  color :#6CD138;
+}
+
+
+
+
+
+
+

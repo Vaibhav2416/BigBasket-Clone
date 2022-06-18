@@ -1,6 +1,6 @@
 
 
- import home from "./homeport.js"
+ import  home from "./homeport.js"
  document.getElementById("container").innerHTML=home()
 
  

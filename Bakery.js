@@ -1,8 +1,14 @@
-import {sidebar} from "/BigBasket\import.js"
+import home from "./homeport.js"
+document.querySelector("#navvvbar").innerHTML = home();
 
-document.querySelector("body").innerHTML= sidebar();
+import {sidebar} from "./import.js"
+document.querySelector("#adi").innerHTML= sidebar();
 
-import {Display,handle_sort} from "append.js";
+import {footer} from "./footer.js"
+document.querySelector("#footer").innerHTML= footer();
+
+
+import {Display,handle_sort} from "./append.js";
 
 let p=document.createElement("P")
 p.innerText="Beverages"
