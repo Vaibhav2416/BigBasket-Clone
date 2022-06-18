@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+
+
+    <h1 class="page">
+        Payment Page
+    </h1>
+    <div class="paymentpage">
+        <form>
+            <div class="form">
+                <h3>Credit/Debit Card</h3>
+                <label>Card number</label><br>
+                <input type="number" id="cardno" placeholder="Enter Card Number"><br>
+                <div class="month" style="display: flex;">
+
+                    <div>
+                        <label for="">Valid Thru</label> <br>
+                        <input type="month" name="" id="">
+                    </div>
+                    <div style="margin-left: 30px;">
+                        <label>CVV</label><br>
+                        <input type="number" placeholder="Secuity Code" id="cvv">
+                    </div>
+                </div>
+                <input type="checkbox" checked="checked"> Save This Card For Faster Payments <br>
+                <input type="submit" value="Place Order & Pay" class="btn1">
+
+            </div>
+
+
+
+            <div class="upi">
+                <div>
+                    <h2>Add New Upi Id</h2>
+                </div>
+                <label for="">Upi Id</label><br>
+                <input type="text" id="u" placeholder="User@BankName"><br>
+                <p>A payment request will be send this upi id</p> <br>
+                <input type="submit" value="Verify" class="btn1">
+            </div>
+        </form>
+    </div>
+
+    <div class="opt">
+        <button class="btn1" onclick="credit()"> Credit / Debit</button>
+        <button class="btn1" onclick="upi()">Upi</button>
+        <button class="btn1" onclick="cash()">Cash On Delivery</button><br>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
+<script>
+    function credit() {
+        document.querySelector(".form").style.display = "block";
+
+    }
+    function upi() {
+        document.querySelector(".upi").style.display = "block";
+    }
+    function cash() {
+        alert("Order Successfully Placed")
+
+    }
+
+
+
+    let pay = document.querySelector(".btn1").addEventListener("click", payment)
+    function payment() {
+        event.preventDefault()
+        let cardnumber = document.querySelector("#cardno").value;
+        let cvv = document.querySelector("#cvv").value;
+        localStorage.setItem("cardnumber", JSON.stringify(cardnumber));
+        localStorage.setItem("cvv", JSON.stringify(cvv));
+        let randomotp = Math.ceil(((Math.random() + 1) * 100000));
+        localStorage.setItem("otp", JSON.stringify(randomotp));
+
+        if (cardnumber.length == 16 && cardnumber === "1234123412341234" && cvv === "123") {
+            alert("Otp Send")
+
+            alert(randomotp);
+            window.location.href = "otppage.html";
+
+
+
+
+
+        }
+        else {
+
+            alert("Invalid Details")
+
+        }
+
+
+
+
+
+    }
+
+
+</script>

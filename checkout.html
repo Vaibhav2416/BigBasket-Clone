@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="navlogo">
+        <div>
+
+            <a class="bblogo" href="#">
+                <img src="bb_logo.png" alt="BB Logo" class="logo">
+            </a>
+        </div>
+        <div>
+            <h2 class="numb">1860 123 1000</h2>
+        </div>
+    </div>
+    <div class="row">
+        <form id="form">
+            <div id="main">
+                <div>
+                    <h4 class="h">Personal Details</h4>
+                </div>
+                <div class="row">
+                    <div class="gap">
+                        <label> *Enter first name </label><br>
+
+                        <input type="text" id="fname" />
+                    </div>
+
+                    <div class="gap">
+                        <label> *Enter last name </label><br>
+                        <input type="text" id="lname" />
+                    </div>
+
+                    <div class="gap">
+                        <label> *Enter contact number </label><br>
+                        <input type="text" maxlength="10" id="mobile">
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="h">Address Details</h4>
+                </div>
+                <div class="row">
+
+                    <div class="gap add">
+                        <label>
+
+                            *House No
+                        </label><br>
+                        <input type="text" id="houseno" />
+
+                    </div>
+                    <div class="gap">
+                        <label>Enter apartment name</label><br>
+                        <input type="text" size="50" id="appartment">
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="gap add">
+                        <label>Enter street details</label><br>
+                        <input type="text" size="35" id="street">
+
+                    </div>
+
+
+                    <div class="gap">
+                        <label>Enter landmark for easy reach out</label><br>
+                        <input type="text" size="35" id="landmark">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="gap add">
+                        <label for="">
+                            *Enter City Name
+                        </label><br>
+                        <select name="Choose Your City" id="city" style="width: 180px; height: 24px;">
+                            <option value="Banglore">Banglore</option>
+                            <option value="Banglore">Mumbai</option>
+                            <option value="Banglore">Delhi</option>
+                            <option value="Banglore">Gurgoan</option>
+                            <option value="Banglore">Haryana</option>
+                            <option value="Banglore">Punjab</option>
+                            <option value="Banglore">Shimla</option>
+                            <option value="Banglore">Himachal</option>
+
+                        </select>
+                    </div>
+                    <div class="gap">
+                        <label for="">*Area Details</label><br>
+                        <input type="text" name="" id="area" size="20">
+
+                    </div>
+                    <div class="gap">
+                        <label for="">*Enter Pincode</label><br>
+                        <input type="number" id="pincode">
+                    </div>
+                </div>
+                <div class=" address">
+                    <label class="nick h" for="">Choose Nickname For Address</label><br>
+                    <button class="h">Home</button><button>Office</button><button>Other</button>
+                </div>
+                <input type="submit" name="Add Address" id="save" class="h" value="Add Address">
+
+            </div>
+        </form>
+        <div class="sidebar">
+            <h3>
+                Apply Voucher
+            </h3>
+            <div>
+                <input type="text" id="code" placeholder="Enter Voucher Code">
+                <button onclick="discount()">Apply</button>
+                <p>Masai100-Voucher</p>
+
+            </div>
+            <div class="conti" style="display: flex;">
+                <div>
+                    <h3>Order Summary
+                    </h3>
+                    <div class="pp" style="display: flex;">
+                        <div>
+                            <h3 class="ppp">Price </h3>
+                        </div>
+                        <div class="amount">
+
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div style="display: flex;">
+                        <div>
+                            <h3>
+                                Discount
+                            </h3>
+                        </div>
+                        <div class="dis">
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+                    <div style="display: flex;">
+                        <div>
+                            <h3>Final Price</h3>
+                        </div>
+                        <div class="final">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- <div class="gift">
+
+        <div>
+            <h2>Is This A Gift Order</h2>
+
+        </div>
+
+        <div>
+            <h4>
+                Details For Gift Message
+            </h4>
+
+        </div>
+        <div class="row">
+            <div class="gap add">
+                <label>
+                    Enter recipient's name
+                </label><br>
+                <input type="text" name="" id="">
+            </div>
+            <div class="gap add">
+                <label>Enter your name</label><br>
+                <input type="text">
+            </div>
+
+
+        </div>
+        <div>
+            <label for="">Enter Message</label><br>
+            <input type="text" name="" id="">
+        </div>
+        <input type="submit" value="Save And Continue">
+        <button>Cancel</button>
+
+    </div> -->
+    <!-- 
+dispaly address -->
+    <!-- <div>
+        <div class="card">
+            <h3>
+                Delivery Address
+            </h3>
+            <p id="saveadd">
+
+            </p>
+
+        </div>
+
+    </div> -->
+    <div class="bot">
+
+        <div id="details">
+
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
+<script>
+    document.querySelector("#save").addEventListener("click", addAddress);
+    const arr = localStorage.getItem('arr') || [];;
+    function addAddress(event) {
+        event.preventDefault()
+        const fname = document.querySelector("#fname").value
+        const lname = document.querySelector("#lname").value
+        const mobile = document.querySelector("#mobile").value
+        const houseno = document.querySelector("#houseno").value
+        const appartment = document.querySelector("#appartment").value
+        const street = document.querySelector("#street").value
+        const landmark = document.querySelector("#landmark").value
+        const area = document.querySelector("#area").value
+        const city = document.querySelector("#city").value
+        const pincode = document.querySelector("#pincode").value
+        // console.log(fname, landmark, lname, mobile, houseno, appartment, city, street, area, pincode);
+
+
+        // localStorage.setItem("fistname", fname);
+        // localStorage.setItem("lastname", lname)
+        // localStorage.setItem("mobile", mobile)
+        // localStorage.setItem("houseno", houseno)
+        // localStorage.setItem("appartment", appartment)
+        // localStorage.setItem("landmark", landmark)
+        // localStorage.setItem("street", street)
+        // localStorage.setItem("area", area)
+        // localStorage.setItem("pincode", pincode)
+        // localStorage.setItem("city", city)
+        // localStorage.getItem("firstname")
+
+
+
+        arr.push({
+            firstname: fname,
+            lastname: lname,
+            mobile: mobile,
+            hpuseno: houseno,
+            appartment: appartment,
+            landmark: landmark,
+            street: street,
+            area: area,
+            pincode: pincode,
+            city: city,
+        })
+        console.log(arr)
+        localStorage.setItem("data", JSON.stringify(arr))
+
+        JSON.parse(localStorage.getItem(arr))
+
+        var card = document.createElement("carddata");
+        var h1 = document.createElement("h1");
+        h1.innerText = "Delivery Address";
+
+        var p1 = document.createElement("p");
+        p1.innerText = fname + " " + lname;
+
+        // var p2 = document.createElement("p");
+        // p2.innerText = lname;
+
+
+
+        var p4 = document.createElement("p");
+        p4.innerText = houseno + " " + appartment;
+
+        var p5 = document.createElement("p");
+        p5.innerText = area + " " + pincode;
+
+
+        var p7 = document.createElement("p");
+        p7.innerText = mobile;
+        var button = document.createElement("button");
+        button.innerText = "Delete"
+        var button1 = document.createElement("button");
+        button1.innerText = "Delivery Here"
+
+        button.addEventListener("click", deleteall)
+        card.append(h1, p1, p4, p5, p7, button1, button)
+
+        document.querySelector("#details").append(card);
+        button1.addEventListener("click", delivery)
+
+
+
+    }
+    // let totalamount = document.querySelector(".amount")
+
+    let totalamount = JSON.parse(localStorage.getItem("Total_sum"));
+    var card1 = document.createElement("carddd")
+    var p10 = document.createElement("p");
+    p10.innerText = totalamount
+
+    card1.append(p10)
+    document.querySelector(".amount").append(card1);
+    function discount() {
+
+
+        const discountcode = document.querySelector("#code").value;
+        if (discountcode === "masai100") {
+            var newamount = (totalamount - 100);
+
+            console.log(newamount)
+
+
+            alert("Code Applied Succesfully")
+
+
+
+
+            var card123 = document.createElement("carddddo")
+            var p12 = document.createElement("p");
+            p12.innerText = "100"
+            card123.append(p12)
+            document.querySelector(".dis").append(card123);
+
+            var card12 = document.createElement("cardddo")
+            var p11 = document.createElement("p");
+            p11.innerText = newamount
+            card12.append(p11)
+            document.querySelector(".final").append(card12);
+
+
+
+
+
+
+
+
+
+        }
+        else {
+            alert("Copoun Code Invalid")
+            var card123 = document.createElement("carddddo")
+            var p12 = document.createElement("p");
+            p12.innerText = "0"
+            card123.append(p12)
+            document.querySelector(".dis").append(card123);
+            var card1 = document.createElement("carddd")
+            var p10 = document.createElement("h4");
+            p10.innerText = totalamount
+
+            card1.append(p10)
+            document.querySelector(".final").append(card1);
+        }
+
+
+
+    }
+    function deleteall() {
+        console.log(event.target.parentNode.remove())
+    }
+    function delivery() {
+        window.location.href = "payment.html"
+    }
+
+
+</script>
