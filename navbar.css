@@ -110,7 +110,7 @@ form.example input[type=text] {
     display: flex;
     align-items: center;
     gap: 20px;
-  position: sticky;
+    margin-bottom: 10px;
 }
 
 #dill{
@@ -131,10 +131,11 @@ form.example input[type=text] {
   border: 0px solid black;
   display: flex;
   flex-direction: column;
+  background-color: white;
   margin-top: -10px;
   display: none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
+  position: absolute;
 }
 #down a{
   border: 1px solid;

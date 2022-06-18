@@ -19,7 +19,7 @@ function navbar(){
   </select>
    
 
-   <a href="signup.html"><p><img src="https://cdn-icons-png.flaticon.com/512/747/747545.png" alt="">Login/Sign Up</p></a> 
+   <a href="signup.html"><p><img src="" alt="">Login/Sign Up</p></a> 
     
 </div>
 
