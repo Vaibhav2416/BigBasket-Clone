@@ -1,0 +1,277 @@
+#main_container{
+    width: 80%;
+    margin-left: 170px;
+}
+#basket_0>h4{
+    font: 300 24px/24px Roboto Slab,serif;
+    color: #58595b;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#basket_1>#btn{
+    border-radius: 5px;
+    border: 1px solid;
+    /* border-color: rgb(245, 189, 85); */
+    font: 600 12px Lato,sans-serif;
+    color: #6d6e71;
+    padding: 10px 14px 10px 14px;
+}
+#btn:hover{
+    cursor: pointer;
+}
+#basket_2{
+    border: 1px solid;  
+    justify-content: space-evenly;  
+    display: flex; 
+    background: #555; 
+    color: #fff;
+    font: 400 14px Roboto Slab,serif;
+    align-items: center;
+    text-align: center;
+}
+/* .basket1{
+    margin-left: 50px    
+} */
+/* #basket_2> .basket2{
+    display: flex; 
+    justify-content: space-evenly;    
+}*/
+.basket2>p{
+    justify-content: space-evenly;
+    /* margin-left: 150px;              */
+} 
+#total_price{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid;
+    width: 80%;
+    margin-left: 170px;
+    margin-top: 20px;
+    background: #555; 
+    color: #fff;
+}
+#total_price>h2:nth-child(1){
+    color: rgb(15, 130, 206);
+}
+#total_price>h2:nth-child(2){
+    color: rgb(70, 236, 29);
+}
+#avtar{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    /* border: 1px solid; */
+    margin-top: 20PX;
+    font: 400 14px Roboto Slab,serif;
+}
+#avtar>button{
+    padding: 2px 5px 2px 5px;
+    cursor: pointer;
+}
+
+
+/* .basket3{
+    width: 91px;
+    background: #c6cc74;
+    color: #000;
+    text-align: center; 
+} */
+/* #basket_3{ */
+    /* margin-top: -1px; */
+    /* margin-left: 10px; */
+    /* border: 1px solid; */
+    /* height: 16px;
+    padding: 5px 1px;
+     
+     background-color: #dfdfdf;
+} */
+/* #basket_3>p{
+    margin-left: 15px;
+    margin-top: 2px;
+
+    font: 400 14px/14px Roboto Slab,serif;
+    color: #444;
+    padding-left: 7px;
+    
+} */
+/* #basket_3>p>a{
+    color: #444;
+} */
+/* #basket_4{
+    border: 1px solid;  
+    justify-content: space-between;  
+    display: flex; 
+    background: #555; 
+       color: #fff;
+    font: 400 14px Roboto Slab,serif;
+} */
+/* .basket01{
+    margin-left: 50px
+    
+}
+#basket_4> .basket02{
+    display: flex; 
+} */
+/* .basket02>p{
+    justify-content: space-evenly;
+    margin-left: 150px;             
+} */
+/* .basket03{
+    width: 91px;
+    background: #c6cc74;
+    color: #000;
+    text-align: center; 
+} */
+/* #basket_5{ */
+    /* display: flex; */
+    /* display: grid; */
+    /* grid-template-columns: repeat(3,1fr); */
+    /* gap: 20px; */
+    /* border: 1px solid; */
+    /* height: auto; */
+/* } */
+#basket_5>#bas1{
+    /* display: flex; */
+    /* border: 1px solid;            */
+    margin: 10px 20px 10px 20px;
+    width: 30%;
+}
+/* #basket_5>#bas1>#btn1{
+    border: 1px solid #70b961;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px 10px 0 5px;
+    padding: 4px 15px;
+    cursor: pointer;
+} */
+/* #basket_5>#bas1>#btn2{
+    border: 1px solid #70b961;
+    border-radius: 5px;
+    border-color: #ccc;
+    display: inline-block;
+    padding: 4px 15px;
+    box-shadow: 2px 2px 4px #ccc;
+    margin-top: 150px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    cursor: pointer; */
+/* } */
+/* #basket_5>#bas2{
+    border: 1px solid;
+    width: 10%;
+    height: 20%;
+    margin-left: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;    
+    font: 400 12px Lato,sans-serif;
+    color: #62a154;
+    border: 1px solid #62A154;
+    background: linear-gradient(to bottom, #fff 60%, #f0f0f0 99%);
+    border-radius: 5px;
+    cursor: pointer;
+} */
+/* #basket_5>#bas2>p{
+    text-align: center;
+} */
+/* #basket_5>#bas3{
+    border: 1px solid;
+    width: 50%;
+    height: auto;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid #a2a2a2;
+    box-shadow: 2px 2px 4px #ccc;
+    border-radius: 5px;
+    position: relative;
+    z-index: 2;
+    padding: 0;
+}   */
+/* #dis_box{ */
+    /* display: flex; */
+    /* border: 1px solid; */
+    /* width: 95%;
+    margin: 10px;
+    justify-content: space-between;
+} */
+/* .vl{
+    border-left: 1px solid #ccc;
+  height: 120px;
+} */
+/* .div4{
+    align-items: center;
+    float: right;
+    font: 700 15px Roboto Slab,serif;
+    color: #e7685d;
+    text-align: center;
+    padding-top: 5px;    
+    margin-top: 10px;
+} */
+/* .div4>p>p{
+    margin-top: -20px;
+}  */
+/* #display{
+    width: 380px;
+}   */
+/* .div1{ */
+    /* font-family: Trebuchet MS,Arial,Helvetica,sans-serif; */
+    /* display: flex;
+    justify-content: space-between; */
+    /* border: 1px solid; */
+    /* margin: 0px;
+    font: 400 13px Lato,sans-serif;
+    color: #555; */
+    /* display: inline-block; */
+    /* margin: 0; */
+    /* padding: 0; */
+/* } */
+/* .div2{
+    font: 400 13px Lato,sans-serif;
+    color: #555;
+    font-family: Trebuchet MS,Arial,Helvetica,sans-serif;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    margin-top: -15px;
+    margin-bottom: 10px;
+}       */
+.div3{
+    font: 400 22px Roboto Slab,serif;
+    color: #444;
+    /* display: block; */
+    border-top: 1px solid #ccc;
+    /* margin: 10px 0 0; */
+    /* padding: 10px 23px 0 13px;     */
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid; */
+    margin-top: -5px;
+}  
+/* .vl1{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 12px;
+}
+#check_the_button{
+    display: grid;
+} */
+#btn3{
+    border-radius: 5px; 
+    /* float: right; */
+    box-shadow: 3px 2px 5px #ccc;
+    padding: 13px 27px;
+    background: #fee67c;
+    border: 1px solid #f1e08e;
+    cursor: pointer;
+    /* color: #444; */
+    font: 400 14px/16px Lato,sans-serif; 
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font: 400 19px Roboto Slab,serif;
+    color: #555;
+    /* float: left; */
+}
+#actual{
+    margin-left: 50px;
+    margin-top: 20px;
+}
