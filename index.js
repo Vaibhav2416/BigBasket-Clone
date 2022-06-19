@@ -116,6 +116,10 @@ let cart=JSON.parse(localStorage.getItem("basket"))
 
 let h4=document.createElement("h4")
 h4.innerText=`Cart Items ${0}`
+// h4.addEventListener("click",openCart)
+// function openCart(){
+//   window.location.href="basket.html"
+// }
 
 let base=document.getElementById("ket")
 base.append(h4)

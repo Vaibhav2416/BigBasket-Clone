@@ -18,6 +18,11 @@ let cart=JSON.parse(localStorage.getItem("basket")) || []
 
   let h4=document.createElement("h4")
 h4.innerText=`Cart Items ${cart.length}`
+h4.addEventListener("click",openCart)
+h4.style.cursor="pointer"
+function openCart(){
+  window.location.href="basket.html"
+}
 
 
 let base=document.getElementById("ket")
@@ -77,7 +82,7 @@ function logOff(){
 import {Display,handle_sort} from "./append.js";
 
 let p=document.createElement("P")
-p.innerText="Beverages"
+p.innerText="Bakery Cakes & Dairy"
 document.getElementById("pname").append(p)
 
 
