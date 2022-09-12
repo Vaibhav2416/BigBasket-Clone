@@ -7,7 +7,7 @@
 
 </p>
 
-<h3 align="center"><a href="#"><strong>Want to see live preview »</strong></a></h3>
+<h3 align="center"><a href="https://venerable-basbousa-4536f8.netlify.app/"><strong>Want to see live preview »</strong></a></h3>
 
 <p align="center"> 
     <br />&#10023;
